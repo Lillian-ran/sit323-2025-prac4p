@@ -1,13 +1,27 @@
 "# sit323-2025-prac4p" 
 # Calculator Microservice
+How to use:
 Environment configuration
 1. Install Node.js (LTS version).
-2. Clone warehouse:
+(following steps in cmd)
+2.Clone repository:
 git clone https://github.com/Lillian-ran/sit323-2025-prac4p.git
-Installation dependencies:
+3.Installation dependencies:
 npm install
-Start service:
+4.Start service:
 node app.js
+
+Simple test:
+url
+eg1. http://localhost:3000/add?num1=10&num2=5
+return- { "result": 15 }
+eg2. http://localhost:3000/divide?num1=8&num2=0
+return- {"error":"Division by zero is not allowed"}
+
+curl
+(in terminal,run)
+curl "http://localhost:3000/multiply?num1=4&num2=3"
+
 API endpoint
 addition:
 GET /add? num1=<number>&num2=<number>
