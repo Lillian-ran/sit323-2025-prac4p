@@ -1,7 +1,7 @@
 "# sit323-2025-prac4p" 
 # Calculator Microservice
 How to use:
-Environment configuration
+Environment setup:
 1. Install Node.js (LTS version).
 (following steps in cmd)
 2.Clone repository:
